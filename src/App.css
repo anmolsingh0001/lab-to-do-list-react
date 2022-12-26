@@ -13,6 +13,76 @@
   }
 }
 
+.input{
+  height: 4vh;
+}
+
+.list{
+  margin-right: 2%;
+}
+
+.delete{
+  margin-left: 1%;
+  height: 4vh;
+  margin-bottom: 1%;
+  color: whitesmoke;
+  background-color:red ;
+  font-size: 20px;
+  box-shadow: 4px 4px 0px 0px gray;
+}
+
+.set{
+  font-size: 20px;
+  background-color: white;
+  height: 5vh;
+  width: 10vw;
+  border-radius: 0.4rem;
+  display: inline-table;
+}
+
+.delete:hover{
+  color: white;
+  background-color: black;
+  box-shadow: 4px 4px 0px 0px gray;
+}
+
+.edit:hover{
+  color: white;
+  background-color: black;
+  box-shadow: 3px 2px 0px 0px gray;
+}
+
+.edit{
+  height: 4vh;
+  margin-bottom: 1%;
+  font-size: 20px;
+  color: black;
+  background-color: silver;
+  box-shadow: 3px 2px 0px 0px red;
+}
+
+.add{
+  height: 5vh;
+  width: 4vw;
+  border-radius: 0% 15% 15% 0%;
+  color: white;
+  background-color: black;
+}
+
+.add:hover{
+  background-color: greenyellow;
+  color: black;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
